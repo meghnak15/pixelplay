@@ -4,7 +4,7 @@ Pixelplay is an exploration of how creative thinking and learning can be inculca
 <img width="4000" height="2667" alt="image_4" src="https://github.com/user-attachments/assets/52c0ab0b-601c-4558-b5c7-8172d9d1f2a8" />
 
 ## Hardware
-- Raspberry Pi 3B
+- Raspberry Pi (A Pi 3B model was used to build this interface)
 - Adafruit RGB Matrix Bonnet (HUB75)
 - Two 64×64 RGB LED matrices chained (128×64 total)
 - CY-822A USB Joystick Encoder
@@ -14,6 +14,14 @@ Pixelplay is an exploration of how creative thinking and learning can be inculca
 
 ## Hardware Files
 The .stl files are 3d print files for casings for your Raspberry Pi and Zero delay USB encoder. There are also .DXF files for your wooden casings, and unless mentioned, they need to be laser cut with 6mm wood. These are all the files for Pixelplay Single - for the Duo option, you will need to laser cut a second set of the same files, except for the side panels. 
+
+## Pixelplay Single Assembly
+The bonnet is not directly sitting on the Pi due to the 5V 10 A power supply connected to the bonnet, making the Pi very hot. The bonnet is connected to the Pi with jumper wires, leaving out the 5V and 3.3V connections. For reference, a pinout of the Raspberry Pi 3B is attached.
+<img width="2064" height="1185" alt="raspberrypi_pinout" src="https://github.com/user-attachments/assets/fe96c447-efca-437b-aada-4aabf8790281" />
+
+<img width="842" height="595" alt="wiring_instructions" src="https://github.com/user-attachments/assets/b41e39e8-25fd-469d-9ff8-0b0afaf4cb76" />
+
+<img width="922" height="643" alt="assembly_instruction_screwing" src="https://github.com/user-attachments/assets/ccf71243-33de-49d1-a407-079871c74d8d" />
 
 
 ## Dependencies
