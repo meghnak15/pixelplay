@@ -3,7 +3,7 @@
 Pictionary LED Matrix Game
 ===========================
 Hardware:
-  - Raspberry Pi 3B
+  - Raspberry Pi
   - Adafruit RGB Matrix Bonnet (HUB75 protocol)
   - Two 64×64 RGB LED matrices chained side by side (128×64 total)
   - CY-822A USB Joystick Encoder board
@@ -30,10 +30,9 @@ import threading
 from inputs import get_gamepad
 from rgbmatrix import RGBMatrix, RGBMatrixOptions, graphics
 
-# ─────────────────────────────────────────────────────────────────────────────
 # MATRIX CONFIG
 # Two 64×64 panels chained → 128 wide, 64 tall
-# ─────────────────────────────────────────────────────────────────────────────
+
 OPTIONS = RGBMatrixOptions()
 OPTIONS.hardware_mapping         = 'adafruit-hat'
 OPTIONS.rows                     = 63
@@ -49,32 +48,31 @@ OPTIONS.disable_hardware_pulsing = True
 CANVAS_WIDTH  = 128   # OPTIONS.cols * OPTIONS.chain_length
 CANVAS_HEIGHT = 64
 
-# ─────────────────────────────────────────────────────────────────────────────
 # JOYSTICK CONFIG
 # Verified axis readings:
 #   ABS_Y: 255=UP  127=CENTER  0=DOWN
 #   ABS_X: 255=LEFT 127=CENTER  0=RIGHT
-# ─────────────────────────────────────────────────────────────────────────────
+
 JOY_CENTER   = 127
 JOY_DEADZONE = 40    # trigger movement outside 127±40 (i.e. <87 or >167)
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 # BUTTON CODES
 # Update these after running the detection snippet above
-# ─────────────────────────────────────────────────────────────────────────────
+
 BTN_CLEAR = "BTN_BASE4"   # ST button  — clears the canvas
 BTN_COLOR = "BTN_BASE6"   # K12 button — cycles to next colour
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 # DRAWING CONFIG
-# ─────────────────────────────────────────────────────────────────────────────
+
 CURSOR_SPEED = 1      # pixels moved per tick
 MOVE_HZ      = 40     # movement ticks per second
 CURSOR_BLINK = 0.3    # seconds per blink half-cycle
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 # COLOR PALETTE  (name, graphics.Color)
-# ─────────────────────────────────────────────────────────────────────────────
+
 # Add RGB colour codes as desired
 COLORS = [
     ("White",   graphics.Color(255, 255, 255)),
@@ -91,9 +89,9 @@ COLORS = [
 ]
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 # BRESENHAM LINE  (fills gaps when cursor moves diagonally fast)
-# ─────────────────────────────────────────────────────────────────────────────
+
 def bresenham(x0, y0, x1, y1):
     dx = abs(x1 - x0)
     dy = abs(y1 - y0)
@@ -113,9 +111,9 @@ def bresenham(x0, y0, x1, y1):
             y0  += sy
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 # GAME
-# ─────────────────────────────────────────────────────────────────────────────
+
 class PictionaryGame:
     def __init__(self):
         self.matrix = RGBMatrix(options=OPTIONS)
@@ -301,7 +299,7 @@ class PictionaryGame:
             print("[GAME] Display cleared. Goodbye!")
 
 
-# ─────────────────────────────────────────────────────────────────────────────
+
 if __name__ == "__main__":
     game = PictionaryGame()
     game.run()
