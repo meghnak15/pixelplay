@@ -1,10 +1,17 @@
 # Pixelplay
 Pixelplay is an exploration of how creative thinking and learning can be inculcated at a younger age in educational settings. This project is an industry brief with Transport for London which instructs to reuse soon-to-be-decomissioned London Underground trains for youth and social enterprise. Repurposing the LED screens on the inside of the tube for interactive learning, they are joined to create an interactive whiteboard. The design is heavily inspired by retro arcades and is entirely flat pack, for easy disassembly. Pixelplay is distributed as kits to schools where students can build the interface on their own. There are various open source codes available online to control the interface, but students are encouraged to explore with the interface and come up with their own playful interactions to benefit them in the classroom.
+
+<img width="4000" height="2667" alt="image_4" src="https://github.com/user-attachments/assets/52c0ab0b-601c-4558-b5c7-8172d9d1f2a8" />
+
 ## Hardware
 - Raspberry Pi 3B
 - Adafruit RGB Matrix Bonnet (HUB75)
 - Two 64×64 RGB LED matrices chained (128×64 total)
 - CY-822A USB Joystick Encoder
+
+<img width="4000" height="2667" alt="image_1" src="https://github.com/user-attachments/assets/7c6d730a-1636-4511-9d7d-dba7a81d2c38" />
+<img width="6720" height="4480" alt="wiring" src="https://github.com/user-attachments/assets/0631e933-9bce-46b9-8e43-ad2c7210ec60" />
+
 
 ## Dependencies
 
