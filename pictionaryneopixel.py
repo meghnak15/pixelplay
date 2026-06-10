@@ -45,6 +45,7 @@ OPTIONS.led_rgb_sequence         = 'RGB'     # change to 'GRB' if colors look wr
 OPTIONS.brightness               = 80
 OPTIONS.disable_hardware_pulsing = True
 
+# add number of rows and columns as per daisy chain
 CANVAS_WIDTH  = 128   # OPTIONS.cols * OPTIONS.chain_length
 CANVAS_HEIGHT = 64
 
@@ -74,6 +75,7 @@ CURSOR_BLINK = 0.3    # seconds per blink half-cycle
 # ─────────────────────────────────────────────────────────────────────────────
 # COLOR PALETTE  (name, graphics.Color)
 # ─────────────────────────────────────────────────────────────────────────────
+# Add RGB colour codes as desired
 COLORS = [
     ("White",   graphics.Color(255, 255, 255)),
     ("Red",     graphics.Color(255,   0,   0)),
