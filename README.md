@@ -12,6 +12,9 @@ Pixelplay is an exploration of how creative thinking and learning can be inculca
 <img width="4000" height="2667" alt="image_1" src="https://github.com/user-attachments/assets/7c6d730a-1636-4511-9d7d-dba7a81d2c38" />
 <img width="6720" height="4480" alt="wiring" src="https://github.com/user-attachments/assets/0631e933-9bce-46b9-8e43-ad2c7210ec60" />
 
+## Hardware Files
+The .stl files are 3d print files for casings for your Raspberry Pi and Zero delay USB encoder. There are also .DXF files for your wooden casings, and unless mentioned, they need to be laser cut with 6mm wood. These are all the files for Pixelplay Single - for the Duo option, you will need to laser cut a second set of the same files, except for the side panels. 
+
 
 ## Dependencies
 
