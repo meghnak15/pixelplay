@@ -35,3 +35,25 @@ pip3 install inputs
 sudo python3 pictionaryneopixel.py
 \```
 > Must be run with `sudo` — the LED matrix library requires GPIO access.
+
+## Button Detection
+
+If your joystick encoder has different button codes, run this snippet to find them:
+
+```bash
+sudo python3 -c "
+from inputs import get_gamepad
+while True:
+    for e in get_gamepad():
+        if e.ev_type not in ('Sync', 'Misc'):
+            print(e.ev_type, e.code, e.state)"
+```
+
+Press each button and note the code printed. Then update these lines in `pictionaryneopixel.py`:
+
+```python
+BTN_CLEAR = "BTN_BASE4"   # button that clears the canvas
+BTN_COLOR = "BTN_BASE6"   # button that cycles colour
+```
+
+Replace `BTN_BASE4` and `BTN_BASE6` with whatever codes your encoder prints.
