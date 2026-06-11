@@ -1,13 +1,16 @@
 # Pixelplay
-Pixelplay is an exploration of how creative thinking and learning can be inculcated at a younger age in educational settings. This project is an industry brief with Transport for London which instructs to reuse soon-to-be-decomissioned London Underground trains for youth and social enterprise. Repurposing the LED screens on the inside of the tube for interactive learning, they are joined to create an interactive whiteboard. The design is heavily inspired by retro arcades and is entirely flat pack, for easy disassembly. Pixelplay is distributed as kits to schools where students can build the interface on their own. There are various open source codes available online to control the interface, but students are encouraged to explore with the interface and come up with their own playful interactions to benefit them in the classroom.
+Pixelplay is an exploration of how creative thinking and learning can be inculcated at a younger age in educational settings. This project is an industry brief with Transport for London which instructs to reuse [soon-to-be-decomissioned London Underground trains](https://tfl.gov.uk/travel-information/improvements-and-projects/piccadilly-line-upgrade) for youth and social enterprise. Repurposing the LED screens on the inside of the tube for interactive learning, they are joined to create an interactive whiteboard. The design is heavily inspired by retro arcades and is entirely flat pack, for easy disassembly. Pixelplay is distributed as kits to schools where students can build the interface on their own. There are various open source codes available online to control the interface, but students are encouraged to explore with the interface and come up with their own playful interactions to benefit them in the classroom.
 
 <img width="4000" height="2667" alt="image_4" src="https://github.com/user-attachments/assets/52c0ab0b-601c-4558-b5c7-8172d9d1f2a8" />
 
 ## Hardware
-- Raspberry Pi (A Pi 3B model was used to build this interface)
-- Adafruit RGB Matrix Bonnet (HUB75)
-- Two 64×64 RGB LED matrices chained (128×64 total)
-- CY-822A USB Joystick Encoder
+- [Raspberry Pi (A Pi 3B model was used to build this interface)](https://www.raspberrypi.com/products/)
+- [Adafruit RGB Matrix Bonnet (HUB75)](https://thepihut.com/products/adafruit-rgb-matrix-bonnet-for-raspberry-pi-ada3211?srsltid=AfmBOoosZDMMtj-f10rmDFJNFyiaX33VN8n1SeQn5fzrlHAI6YYLXVva)
+- [Two 64×64 RGB LED matrices chained (128×64 total)](https://thepihut.com/products/rgb-full-colour-led-matrix-panel-3mm-pitch-64x64-pixels?srsltid=AfmBOop42c_z0unLDgqJ-aGlvVcxaNV0BmpcAfSwvAHKaUJlHmw07-vn)
+- [CY-822A USB Joystick Encoder](https://www.amazon.co.uk/Owootecc-Encoder-Raspberry-RetroPie-Project/dp/B08SC973C8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Pf6MCyiHeNSp3QWT-Pg_3TNg49vao6xSFWqJyu_yDKJzDAlKCIJSyp6au7yBU4bZZwQv9DhTdmp19x4Nw-wX12EyicAVuB25yMj-r78_MK4Gt2stAiTKU2I7cX1fzW1eExPVR0bqKFdLMGF08iM6yxf0sOaM_KkXkc_YjuO9tAYNtKlekOAEK5JtNnNDGVQsYEI9a_dZAbBEv0BAkBgbvCJ3k39xpZIWpVBDYiA-k9Y.cOY_TSOJnPpEZa17JAdR7IYqdlVzdLVGUy-JP-sVcVk&dib_tag=se&keywords=usb+encoder&qid=1781171508&sr=8-7)
+- [Sanwa 8-way Arcade Joystick](https://thepihut.com/products/official-sanwa-8-way-arcade-joystick-jlf-tp-8yt?srsltid=AfmBOorLUa7LGwAmgUolZb-G-nuV5N1DA3dvOWlVBI_9W441qnJ27IlM&variant=37569028161731)
+- [30mm Arcade Button] (https://thepihut.com/products/arcade-button-30mm-translucent-bright-green)
+- [60mm Arcade Button] (https://thepihut.com/products/large-arcade-button-with-led-60mm-yellow)
 
 <img width="4000" height="2667" alt="image_1" src="https://github.com/user-attachments/assets/7c6d730a-1636-4511-9d7d-dba7a81d2c38" />
 <img width="6720" height="4480" alt="wiring" src="https://github.com/user-attachments/assets/0631e933-9bce-46b9-8e43-ad2c7210ec60" />
@@ -18,6 +21,8 @@ The .stl files are 3d print files for casings for your Raspberry Pi and Zero del
 ## Pixelplay Single Assembly
 The bonnet is not directly sitting on the Pi due to the 5V 10 A power supply connected to the bonnet, making the Pi very hot. The bonnet is connected to the Pi with jumper wires, leaving out the 5V and 3.3V connections. For reference, a pinout of the Raspberry Pi 3B is attached.
 <img width="2064" height="1185" alt="raspberrypi_pinout" src="https://github.com/user-attachments/assets/fe96c447-efca-437b-aada-4aabf8790281" />
+<img width="3561" height="3561" alt="IMG_9217" src="https://github.com/user-attachments/assets/3bb4b080-69de-40d4-a577-baaad38a02a5" />
+
 
 <img width="842" height="595" alt="wiring_instructions" src="https://github.com/user-attachments/assets/b41e39e8-25fd-469d-9ff8-0b0afaf4cb76" />
 
