@@ -9,8 +9,8 @@ Pixelplay is an exploration of how creative thinking and learning can be inculca
 - [Two 64×64 RGB LED matrices chained (128×64 total)](https://thepihut.com/products/rgb-full-colour-led-matrix-panel-3mm-pitch-64x64-pixels?srsltid=AfmBOop42c_z0unLDgqJ-aGlvVcxaNV0BmpcAfSwvAHKaUJlHmw07-vn)
 - [CY-822A USB Joystick Encoder](https://www.amazon.co.uk/Owootecc-Encoder-Raspberry-RetroPie-Project/dp/B08SC973C8/ref=sr_1_7?dib=eyJ2IjoiMSJ9.Pf6MCyiHeNSp3QWT-Pg_3TNg49vao6xSFWqJyu_yDKJzDAlKCIJSyp6au7yBU4bZZwQv9DhTdmp19x4Nw-wX12EyicAVuB25yMj-r78_MK4Gt2stAiTKU2I7cX1fzW1eExPVR0bqKFdLMGF08iM6yxf0sOaM_KkXkc_YjuO9tAYNtKlekOAEK5JtNnNDGVQsYEI9a_dZAbBEv0BAkBgbvCJ3k39xpZIWpVBDYiA-k9Y.cOY_TSOJnPpEZa17JAdR7IYqdlVzdLVGUy-JP-sVcVk&dib_tag=se&keywords=usb+encoder&qid=1781171508&sr=8-7)
 - [Sanwa 8-way Arcade Joystick](https://thepihut.com/products/official-sanwa-8-way-arcade-joystick-jlf-tp-8yt?srsltid=AfmBOorLUa7LGwAmgUolZb-G-nuV5N1DA3dvOWlVBI_9W441qnJ27IlM&variant=37569028161731)
-- [30mm Arcade Button] (https://thepihut.com/products/arcade-button-30mm-translucent-bright-green)
-- [60mm Arcade Button] (https://thepihut.com/products/large-arcade-button-with-led-60mm-yellow)
+- [30mm Arcade Button](https://thepihut.com/products/arcade-button-30mm-translucent-bright-green)
+- [60mm Arcade Button](https://thepihut.com/products/large-arcade-button-with-led-60mm-yellow)
 
 <img width="4000" height="2667" alt="image_1" src="https://github.com/user-attachments/assets/7c6d730a-1636-4511-9d7d-dba7a81d2c38" />
 <img width="6720" height="4480" alt="wiring" src="https://github.com/user-attachments/assets/0631e933-9bce-46b9-8e43-ad2c7210ec60" />
