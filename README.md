@@ -11,7 +11,7 @@ Pixelplay is an exploration of how creative thinking and learning can be inculca
 - [Sanwa 8-way Arcade Joystick](https://thepihut.com/products/official-sanwa-8-way-arcade-joystick-jlf-tp-8yt?srsltid=AfmBOorLUa7LGwAmgUolZb-G-nuV5N1DA3dvOWlVBI_9W441qnJ27IlM&variant=37569028161731)
 - [30mm Arcade Button](https://thepihut.com/products/arcade-button-30mm-translucent-bright-green)
 - [60mm Arcade Button](https://thepihut.com/products/large-arcade-button-with-led-60mm-yellow)
-
+- [5V 10A Power Supply](https://www.amazon.co.uk/Current-Universal-Wireless-Multi-Device-Charging/dp/B0GBVHZVKD/ref=asc_df_B0GBVHZVKD?mcid=53a3aa93003f331f8587fc9761ada322&tag=googshopuk-21&linkCode=df0&hvadid=784327053521&hvpos=&hvnetw=g&hvrand=4537974544107928026&hvpone=&hvptwo=&hvqmt=&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9045888&hvtargid=pla-2478174132636&psc=1&hvocijid=4537974544107928026-B0GBVHZVKD-&hvexpln=0&gad_source=1)
 <img width="4000" height="2667" alt="image_1" src="https://github.com/user-attachments/assets/7c6d730a-1636-4511-9d7d-dba7a81d2c38" />
 <img width="6720" height="4480" alt="wiring" src="https://github.com/user-attachments/assets/0631e933-9bce-46b9-8e43-ad2c7210ec60" />
 
